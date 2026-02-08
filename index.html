@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLDEN DEFENDER - Arcade Restoration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-grid"></div>
+    <div class="scan-lines"></div>
+
+    <!-- Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">GOLDEN DEFENDER</span>
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Parts Gallery</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="bezel.html">Golden Bezel</a></li>
+                        <li><a href="controls.html">Golden Controls</a></li>
+                        <li><a href="marquee.html">Golden Marquee</a></li>
+                        <li><a href="boards.html">Golden Boards</a></li>
+                        <li><a href="monitor.html">Golden Monitor</a></li>
+                        <li><a href="coin-door.html">Golden Coin Door</a></li>
+                        <li><a href="full-photos.html">All Photos</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Restoration</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="beginnings.html">Golden Beginnings</a></li>
+                        <li><a href="history.html">Golden History</a></li>
+                        <li><a href="parts.html">Golden Parts</a></li>
+                        <li><a href="paint.html">Golden Paint</a></li>
+                        <li><a href="inspection.html">Golden Inspection</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Media</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="songs.html">Golden Songs</a></li>
+                        <li><a href="sounds.html">Classic Sounds</a></li>
+                        <li><a href="video.html">Golden Video</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="enemies.html">Golden Enemies</a></li>
+                        <li><a href="schematics.html">Schematics</a></li>
+                        <li><a href="story.html">A Golden Story</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">More</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="creator.html">Golden Creator</a></li>
+                        <li><a href="extras.html">Golden Extras</a></li>
+                        <li><a href="tribute.html">Golden Tribute</a></li>
+                        <li><a href="poem.html">A Golden Poem</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">GOLDEN</span>
+                <span class="title-line">DEFENDER</span>
+            </h1>
+            <p class="hero-subtitle">A Classic Arcade Restoration Journey</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">1981</span>
+                    <span class="stat-label">Original Year</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Hours Restored</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Memories Made</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to Explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Gallery Grid -->
+        <section class="section gallery-section">
+            <div class="container">
+                <h2 class="section-title">Explore the Restoration</h2>
+                <div class="gallery-grid">
+                    <!-- Parts Gallery -->
+                    <a href="bezel.html" class="gallery-card" data-category="parts">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/bezel-preview.jpg" alt="Golden Bezel" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Bezel</h3>
+                            <p class="card-description">Restored arcade bezel in pristine condition</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="controls.html" class="gallery-card" data-category="parts">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/controls-preview.jpg" alt="Golden Controls" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Controls</h3>
+                            <p class="card-description">Joystick and button restoration details</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="marquee.html" class="gallery-card" data-category="parts">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/marquee-preview.jpg" alt="Golden Marquee" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Marquee</h3>
+                            <p class="card-description">Illuminated marquee showcase</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="boards.html" class="gallery-card" data-category="parts">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/boards-preview.jpg" alt="Golden Boards" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Boards</h3>
+                            <p class="card-description">Circuit board restoration and testing</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="monitor.html" class="gallery-card" data-category="parts">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/monitor-preview.jpg" alt="Golden Monitor" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Monitor</h3>
+                            <p class="card-description">CRT monitor repair and calibration</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="coin-door.html" class="gallery-card" data-category="parts">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/coin-door-preview.jpg" alt="Golden Coin Door" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Coin Door</h3>
+                            <p class="card-description">Restored coin mechanism</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <!-- Restoration Journey -->
+                    <a href="beginnings.html" class="gallery-card" data-category="restoration">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/beginnings-preview.jpg" alt="Golden Beginnings" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Beginnings</h3>
+                            <p class="card-description">Where the journey started</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="tribute.html" class="gallery-card" data-category="story">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/tribute-preview.jpg" alt="Golden Tribute" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Tribute</h3>
+                            <p class="card-description">Honoring the classic</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="songs.html" class="gallery-card" data-category="media">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/songs-preview.jpg" alt="Golden Songs" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Songs</h3>
+                            <p class="card-description">Arcade music and soundtracks</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="video.html" class="gallery-card" data-category="media">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/video-preview.jpg" alt="Golden Video" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Video</h3>
+                            <p class="card-description">Gameplay and restoration videos</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="schematics.html" class="gallery-card" data-category="info">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/schematics-preview.jpg" alt="Schematics" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Schematics</h3>
+                            <p class="card-description">Technical diagrams and blueprints</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="enemies.html" class="gallery-card" data-category="info">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/enemies-preview.jpg" alt="Golden Enemies" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Enemies</h3>
+                            <p class="card-description">Game characters and sprites</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <!-- Additional Content -->
+                    <a href="history.html" class="gallery-card" data-category="info">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/history-preview.jpg" alt="Golden History" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden History</h3>
+                            <p class="card-description">The story of Defender</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="parts.html" class="gallery-card" data-category="restoration">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/parts-list-preview.jpg" alt="Golden Parts" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Parts</h3>
+                            <p class="card-description">Parts inventory and sourcing</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="paint.html" class="gallery-card" data-category="restoration">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/paint-preview.jpg" alt="Golden Paint" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Paint</h3>
+                            <p class="card-description">Cabinet refinishing process</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="inspection.html" class="gallery-card" data-category="restoration">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/inspection-preview.jpg" alt="Golden Inspection" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Inspection</h3>
+                            <p class="card-description">Quality control and testing</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="creator.html" class="gallery-card" data-category="story">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/creator-preview.jpg" alt="Golden Creator" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Creator</h3>
+                            <p class="card-description">Meet the restorer</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="extras.html" class="gallery-card" data-category="story">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/extras-preview.jpg" alt="Golden Extras" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Golden Extras</h3>
+                            <p class="card-description">Bonus content and details</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="poem.html" class="gallery-card" data-category="story">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/poem-preview.jpg" alt="A Golden Poem" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">A Golden Poem</h3>
+                            <p class="card-description">Tribute in verse</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+
+                    <a href="story.html" class="gallery-card" data-category="story">
+                        <div class="card-image">
+                            <div class="card-overlay"></div>
+                            <img src="images/story-preview.jpg" alt="A Golden Story" onerror="this.src='images/placeholder.jpg'">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">A Golden Story</h3>
+                            <p class="card-description">The complete narrative</p>
+                            <span class="card-arrow">→</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Links Section -->
+        <section class="section quick-links-section">
+            <div class="container">
+                <div class="quick-links-grid">
+                    <a href="full-photos.html" class="quick-link-card">
+                        <div class="quick-link-icon">📸</div>
+                        <h3>View All Photos</h3>
+                        <p>Complete photo gallery</p>
+                    </a>
+                    <a href="contact.html" class="quick-link-card">
+                        <div class="quick-link-icon">✉️</div>
+                        <h3>Get in Touch</h3>
+                        <p>Questions? Contact us</p>
+                    </a>
+                    <a href="faq.html" class="quick-link-card">
+                        <div class="quick-link-icon">❓</div>
+                        <h3>FAQ</h3>
+                        <p>Common questions answered</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">GOLDEN DEFENDER</h3>
+                    <p class="footer-text">Preserving arcade history, one restoration at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="full-photos.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Restoration</h4>
+                    <ul class="footer-links">
+                        <li><a href="beginnings.html">Beginnings</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="parts.html">Parts</a></li>
+                        <li><a href="paint.html">Paint</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Golden Defender. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
