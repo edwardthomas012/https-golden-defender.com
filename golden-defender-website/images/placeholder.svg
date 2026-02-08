@@ -1,7 +1,0 @@
-<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="600" fill="#0a0015"/>
-  <rect x="50" y="50" width="700" height="500" fill="none" stroke="#FFD700" stroke-width="3"/>
-  <text x="400" y="280" font-family="Arial, sans-serif" font-size="48" fill="#FFD700" text-anchor="middle" font-weight="bold">GOLDEN DEFENDER</text>
-  <text x="400" y="340" font-family="Arial, sans-serif" font-size="24" fill="#00ffff" text-anchor="middle">Add Your Photo Here</text>
-  <text x="400" y="380" font-family="Arial, sans-serif" font-size="16" fill="#B8860B" text-anchor="middle">Replace this placeholder with your restoration photos</text>
-</svg>
